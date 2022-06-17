@@ -1,0 +1,16 @@
+{
+  "name": "node-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^19.0.4",
+    "jquery": "^3.6.0"
+  }
+}

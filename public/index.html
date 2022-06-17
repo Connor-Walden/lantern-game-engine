@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <title>My App</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Gaem Object To Render To -->
+        <canvas id="game" />
+
+        <!-- Lantern Game Library -->
+        <script src="../lib/game.js" type="module"></script>
+
+        <!-- Game Script -->
+        <script src="../src/app.js" type="module"></script>
+    </body>
+</html>
